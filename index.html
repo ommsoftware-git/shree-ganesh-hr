@@ -1,0 +1,1532 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta
+      name="description"
+      content="Responsive HTML Admin Dashboard Template based on Bootstrap 5"
+    />
+    <meta name="author" content="NobleUI" />
+    <meta
+      name="keywords"
+      content="nobleui, bootstrap, bootstrap 5, bootstrap5, admin, dashboard, template, responsive, css, sass, html, theme, front-end, ui kit, web"
+    />
+
+    <title>Shree Ganesh</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com/" />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&amp;display=swap"
+      rel="stylesheet"
+    />
+    <!-- End fonts -->
+
+    <!-- core:css -->
+    <link rel="stylesheet" href="./assets/vendors/core/core.css" />
+    <!-- endinject -->
+
+    <!-- Plugin css for this page -->
+    <link
+      rel="stylesheet"
+      href="./assets/vendors/flatpickr/flatpickr.min.css"
+    />
+    <!-- End plugin css for this page -->
+
+    <!-- inject:css -->
+    <link
+      rel="stylesheet"
+      href="./assets/fonts/feather-font/css/iconfont.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./assets/vendors/flag-icon-css/css/flag-icon.min.css"
+    />
+    <!-- endinject -->
+
+    <!-- Layout styles -->
+    <link rel="stylesheet" href="./assets/css/demo1/style.min.css" />
+    <!-- End layout styles -->
+
+    <link rel="shortcut icon" href="./assets/images/logo.png" />
+  </head>
+  <body>
+    <div class="main-wrapper">
+      <!-- partial:partials/_sidebar.html -->
+      <nav class="sidebar">
+        <div class="sidebar-header">
+          <a href="#" class="sidebar-brand">
+            <img src="./assets/images/logo.png" alt="logo" style="width: 150px"
+          /></a>
+          <div class="sidebar-toggler not-active">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+        <div class="sidebar-body">
+          <ul class="nav">
+            <li class="nav-item nav-category">Main</li>
+
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                data-bs-toggle="collapse"
+                href="#tables"
+                role="button"
+                aria-expanded="false"
+                aria-controls="tables"
+              >
+                <i class="link-icon" data-feather="box"></i>
+                <span class="link-title"> डॅशबोर्ड</span>
+                <i class="link-arrow" data-feather="chevron-down"></i>
+              </a>
+              <div class="collapse" id="tables">
+                <ul class="nav sub-menu">
+                  <li class="nav-item">
+                    <a href="" class="nav-link"> Admin डॅशबोर्ड</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="index.html" class="nav-link">Hr डॅशबोर्ड</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="nav-item nav-category">web apps</li>
+            <li class="nav-item">
+              <a href="new-booking.html" class="nav-link">
+                <i class="link-icon" data-feather="sliders"></i>
+                <span class="link-title">नवीन बुकिंग</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="inquiry-form.html" class="nav-link">
+                <i class="link-icon" data-feather="message-square"></i>
+                <span class="link-title">सेवा मेनू</span>
+              </a>
+            </li>
+
+            <li class="nav-item nav-category">Components</li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                data-bs-toggle="collapse"
+                href="#advancedUI"
+                role="button"
+                aria-expanded="false"
+                aria-controls="advancedUI"
+              >
+                <i class="link-icon" data-feather="coffee"></i>
+                <span class="link-title">रेग्युलर बुफे मेन</span>
+                <i class="link-arrow" data-feather="chevron-down"></i>
+              </a>
+              <div class="collapse" id="advancedUI">
+                <ul class="nav sub-menu">
+                  <li class="nav-item">
+                    <a href="regular-food-menu.html" class="nav-link">
+                      बुफे मेनू</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a href="regular-sweet-menu.html" class="nav-link"
+                      >गोड मेनू</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a href="regular-chat-menu.html" class="nav-link"
+                      >चाट मेनू
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                data-bs-toggle="collapse"
+                href="#charts"
+                role="button"
+                aria-expanded="false"
+                aria-controls="charts"
+              >
+                <i class="link-icon" data-feather="coffee"></i>
+                <span class="link-title">स्पेशल बुफे मेनू</span>
+                <i class="link-arrow" data-feather="chevron-down"></i>
+              </a>
+              <div class="collapse" id="charts">
+                <ul class="nav sub-menu">
+                  <li class="nav-item">
+                    <a href="special-food-menu.html" class="nav-link"
+                      >बुफे मेनू</a
+                    >
+                  </li>
+
+                  <li class="nav-item">
+                    <a href="special-sweet-menu.html" class="nav-link"
+                      >गोड मेनू</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a href="special-chat-menu.html" class="nav-link"
+                      >चाट मेनू</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a href="other-food-menu.html" class="nav-link">
+                <i class="link-icon" data-feather="coffee"></i>
+                <span class="link-title"> इतर बुफे मेनू </span>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a href="crockery-inventory.html" class="nav-link">
+                <i class="link-icon" data-feather="sliders"></i>
+                <span class="link-title">क्रॉकरी यादी</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="grocery-inventory.html" class="nav-link">
+                <i class="link-icon" data-feather="shopping-bag"></i>
+                <span class="link-title">किराणा दुकान यादी</span>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a href="manage-service.html" class="nav-link">
+                <i class="link-icon" data-feather="slack"></i>
+                <span class="link-title">सेवा व्यवस्थापन </span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="approved-booking.html" class="nav-link">
+                <i class="link-icon" data-feather="feather"></i>
+                <span class="link-title">मंजूर बुकिंग</span>
+              </a>
+            </li>
+
+            <li class="nav-item nav-category">Pages</li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                data-bs-toggle="collapse"
+                href="#general-pages"
+                role="button"
+                aria-expanded="false"
+                aria-controls="general-pages"
+              >
+                <i class="link-icon" data-feather="book"></i>
+                <span class="link-title">वापरकर्ता व्यवस्थापन</span>
+                <i class="link-arrow" data-feather="chevron-down"></i>
+              </a>
+              <div class="collapse" id="general-pages">
+                <ul class="nav sub-menu">
+                  <li class="nav-item">
+                    <a href="profile.html" class="nav-link"> प्रोफाइल</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                data-bs-toggle="collapse"
+                href="#authPages"
+                role="button"
+                aria-expanded="false"
+                aria-controls="authPages"
+              >
+                <i class="link-icon" data-feather="unlock"></i>
+                <span class="link-title">Authentication</span>
+                <i class="link-arrow" data-feather="chevron-down"></i>
+              </a>
+              <div class="collapse" id="authPages">
+                <ul class="nav sub-menu">
+                  <li class="nav-item">
+                    <a href="login.html" class="nav-link"> लॉगिन करा</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="register.html" class="nav-link"> नोंदणी करा</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- partial -->
+
+      <div class="page-wrapper">
+        <!-- partial:partials/_navbar.html -->
+        <nav class="navbar">
+          <a href="#" class="sidebar-toggler">
+            <i data-feather="menu"></i>
+          </a>
+          <div class="navbar-content">
+            <form class="search-form">
+              <div class="input-group">
+                <div class="input-group-text">
+                  <i data-feather="search"></i>
+                </div>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="navbarForm"
+                  placeholder="Search here..."
+                />
+              </div>
+            </form>
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="messageDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  <i data-feather="mail"></i>
+                </a>
+                <div
+                  class="dropdown-menu p-0"
+                  aria-labelledby="messageDropdown"
+                >
+                  <div
+                    class="px-3 py-2 d-flex align-items-center justify-content-between border-bottom"
+                  >
+                    <p>9 New Messages</p>
+                    <a href="javascript:;" class="text-muted">Clear all</a>
+                  </div>
+                  <div class="p-1">
+                    <a
+                      href="javascript:;"
+                      class="dropdown-item d-flex align-items-center py-2"
+                    >
+                      <div class="me-3">
+                        <img
+                          class="wd-30 ht-30 rounded-circle"
+                          src="../assets/images/faces/face2.jpg"
+                          alt="userr"
+                        />
+                      </div>
+                      <div class="d-flex justify-content-between flex-grow-1">
+                        <div class="me-4">
+                          <p>Leonardo Payne</p>
+                          <p class="tx-12 text-muted">Project status</p>
+                        </div>
+                        <p class="tx-12 text-muted">2 min ago</p>
+                      </div>
+                    </a>
+                    <a
+                      href="javascript:;"
+                      class="dropdown-item d-flex align-items-center py-2"
+                    >
+                      <div class="me-3">
+                        <img
+                          class="wd-30 ht-30 rounded-circle"
+                          src="../assets/images/faces/face3.jpg"
+                          alt="userr"
+                        />
+                      </div>
+                      <div class="d-flex justify-content-between flex-grow-1">
+                        <div class="me-4">
+                          <p>Carl Henson</p>
+                          <p class="tx-12 text-muted">Client meeting</p>
+                        </div>
+                        <p class="tx-12 text-muted">30 min ago</p>
+                      </div>
+                    </a>
+                    <a
+                      href="javascript:;"
+                      class="dropdown-item d-flex align-items-center py-2"
+                    >
+                      <div class="me-3">
+                        <img
+                          class="wd-30 ht-30 rounded-circle"
+                          src="../assets/images/faces/face4.jpg"
+                          alt="userr"
+                        />
+                      </div>
+                      <div class="d-flex justify-content-between flex-grow-1">
+                        <div class="me-4">
+                          <p>Jensen Combs</p>
+                          <p class="tx-12 text-muted">Project updates</p>
+                        </div>
+                        <p class="tx-12 text-muted">1 hrs ago</p>
+                      </div>
+                    </a>
+                    <a
+                      href="javascript:;"
+                      class="dropdown-item d-flex align-items-center py-2"
+                    >
+                      <div class="me-3">
+                        <img
+                          class="wd-30 ht-30 rounded-circle"
+                          src="../assets/images/faces/face5.jpg"
+                          alt="userr"
+                        />
+                      </div>
+                      <div class="d-flex justify-content-between flex-grow-1">
+                        <div class="me-4">
+                          <p>Amiah Burton</p>
+                          <p class="tx-12 text-muted">Project deatline</p>
+                        </div>
+                        <p class="tx-12 text-muted">2 hrs ago</p>
+                      </div>
+                    </a>
+                    <a
+                      href="javascript:;"
+                      class="dropdown-item d-flex align-items-center py-2"
+                    >
+                      <div class="me-3">
+                        <img
+                          class="wd-30 ht-30 rounded-circle"
+                          src="../assets/images/faces/face6.jpg"
+                          alt="userr"
+                        />
+                      </div>
+                      <div class="d-flex justify-content-between flex-grow-1">
+                        <div class="me-4">
+                          <p>Yaretzi Mayo</p>
+                          <p class="tx-12 text-muted">New record</p>
+                        </div>
+                        <p class="tx-12 text-muted">5 hrs ago</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div
+                    class="px-3 py-2 d-flex align-items-center justify-content-center border-top"
+                  >
+                    <a href="javascript:;">View all</a>
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="notificationDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  <i data-feather="bell"></i>
+                  <div class="indicator">
+                    <div class="circle"></div>
+                  </div>
+                </a>
+                <div
+                  class="dropdown-menu p-0"
+                  aria-labelledby="notificationDropdown"
+                >
+                  <div
+                    class="px-3 py-2 d-flex align-items-center justify-content-between border-bottom"
+                  >
+                    <p>6 New Notifications</p>
+                    <a href="javascript:;" class="text-muted">Clear all</a>
+                  </div>
+                  <div class="p-1">
+                    <a
+                      href="javascript:;"
+                      class="dropdown-item d-flex align-items-center py-2"
+                    >
+                      <div
+                        class="wd-30 ht-30 d-flex align-items-center justify-content-center bg-primary rounded-circle me-3"
+                      >
+                        <i class="icon-sm text-white" data-feather="gift"></i>
+                      </div>
+                      <div class="flex-grow-1 me-2">
+                        <p>New Order Recieved</p>
+                        <p class="tx-12 text-muted">30 min ago</p>
+                      </div>
+                    </a>
+                    <a
+                      href="javascript:;"
+                      class="dropdown-item d-flex align-items-center py-2"
+                    >
+                      <div
+                        class="wd-30 ht-30 d-flex align-items-center justify-content-center bg-primary rounded-circle me-3"
+                      >
+                        <i
+                          class="icon-sm text-white"
+                          data-feather="alert-circle"
+                        ></i>
+                      </div>
+                      <div class="flex-grow-1 me-2">
+                        <p>Server Limit Reached!</p>
+                        <p class="tx-12 text-muted">1 hrs ago</p>
+                      </div>
+                    </a>
+                    <a
+                      href="javascript:;"
+                      class="dropdown-item d-flex align-items-center py-2"
+                    >
+                      <div
+                        class="wd-30 ht-30 d-flex align-items-center justify-content-center bg-primary rounded-circle me-3"
+                      >
+                        <img
+                          class="wd-30 ht-30 rounded-circle"
+                          src="../assets/images/faces/face6.jpg"
+                          alt="userr"
+                        />
+                      </div>
+                      <div class="flex-grow-1 me-2">
+                        <p>New customer registered</p>
+                        <p class="tx-12 text-muted">2 sec ago</p>
+                      </div>
+                    </a>
+                    <a
+                      href="javascript:;"
+                      class="dropdown-item d-flex align-items-center py-2"
+                    >
+                      <div
+                        class="wd-30 ht-30 d-flex align-items-center justify-content-center bg-primary rounded-circle me-3"
+                      >
+                        <i class="icon-sm text-white" data-feather="layers"></i>
+                      </div>
+                      <div class="flex-grow-1 me-2">
+                        <p>Apps are ready for update</p>
+                        <p class="tx-12 text-muted">5 hrs ago</p>
+                      </div>
+                    </a>
+                    <a
+                      href="javascript:;"
+                      class="dropdown-item d-flex align-items-center py-2"
+                    >
+                      <div
+                        class="wd-30 ht-30 d-flex align-items-center justify-content-center bg-primary rounded-circle me-3"
+                      >
+                        <i
+                          class="icon-sm text-white"
+                          data-feather="download"
+                        ></i>
+                      </div>
+                      <div class="flex-grow-1 me-2">
+                        <p>Download completed</p>
+                        <p class="tx-12 text-muted">6 hrs ago</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div
+                    class="px-3 py-2 d-flex align-items-center justify-content-center border-top"
+                  >
+                    <a href="javascript:;">View all</a>
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="profileDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  <img
+                    class="wd-30 ht-30 rounded-circle"
+                    src="../assets/images/faces/face1.jpg"
+                    alt="profile"
+                  />
+                </a>
+                <div
+                  class="dropdown-menu p-0"
+                  aria-labelledby="profileDropdown"
+                >
+                  <div
+                    class="d-flex flex-column align-items-center border-bottom px-5 py-3"
+                  >
+                    <div class="mb-3">
+                      <img
+                        class="wd-80 ht-80 rounded-circle"
+                        src="../assets/images/faces/face1.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="text-center">
+                      <p class="tx-16 fw-bolder">Amiah Burton</p>
+                      <p class="tx-12 text-muted">amiahburton@gmail.com</p>
+                    </div>
+                  </div>
+                  <ul class="list-unstyled p-1">
+                    <li class="dropdown-item py-2">
+                      <a
+                        href="pages/general/profile.html"
+                        class="text-body ms-0"
+                      >
+                        <i class="me-2 icon-md" data-feather="user"></i>
+                        <span>Profile</span>
+                      </a>
+                    </li>
+                    <li class="dropdown-item py-2">
+                      <a href="javascript:;" class="text-body ms-0">
+                        <i class="me-2 icon-md" data-feather="edit"></i>
+                        <span>Edit Profile</span>
+                      </a>
+                    </li>
+                    <li class="dropdown-item py-2">
+                      <a href="javascript:;" class="text-body ms-0">
+                        <i class="me-2 icon-md" data-feather="repeat"></i>
+                        <span>Switch User</span>
+                      </a>
+                    </li>
+                    <li class="dropdown-item py-2">
+                      <a href="javascript:;" class="text-body ms-0">
+                        <i class="me-2 icon-md" data-feather="log-out"></i>
+                        <span>Log Out</span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <!-- partial -->
+
+        <div class="page-content">
+          <div
+            class="d-flex justify-content-between align-items-center flex-wrap grid-margin"
+          >
+            <div>
+              <h4 class="mb-3 mb-md-0 text-white">
+                डॅशबोर्डवर आपले स्वागत आहे
+              </h4>
+            </div>
+            <div class="d-flex align-items-center flex-wrap text-nowrap">
+              <div
+                class="input-group flatpickr wd-200 me-2 mb-2 mb-md-0"
+                id="dashboardDate"
+              >
+                <span
+                  class="input-group-text input-group-addon text-white border-primary"
+                  data-toggle
+                  ><i data-feather="calendar" class="text-primary"></i
+                ></span>
+                <input
+                  type="text"
+                  class="form-control bg-transparent border-primary"
+                  placeholder="Select date"
+                  data-input
+                />
+              </div>
+              <button
+                type="button"
+                class="btn btn-outline-primary btn-icon-text me-2 mb-2 mb-md-0"
+              >
+                <i class="btn-icon-prepend" data-feather="printer"></i>
+                Print
+              </button>
+              <button
+                type="button"
+                class="btn btn-primary btn-icon-text mb-2 mb-md-0"
+              >
+                <i class="btn-icon-prepend" data-feather="download-cloud"></i>
+                Download Report
+              </button>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-12 col-xl-12 stretch-card">
+              <div class="row flex-grow-1">
+                <div class="col-md-4 grid-margin stretch-card">
+                  <div
+                    class="card"
+                    style="background: #17a2b8 !important; border: none"
+                  >
+                    <div class="card-body">
+                      <div
+                        class="d-flex justify-content-between align-items-baseline"
+                      >
+                        <h6 class="card-title mb-0">एकूण नवीन बुकिंग</h6>
+                        <div class="dropdown mb-2">
+                          <a
+                            type="button"
+                            id="dropdownMenuButton"
+                            data-bs-toggle="dropdown"
+                            aria-haspopup="true"
+                            aria-expanded="false"
+                          >
+                            <i
+                              class="icon-lg text-white pb-3px"
+                              data-feather="more-horizontal"
+                            ></i>
+                          </a>
+                          <div
+                            class="dropdown-menu"
+                            aria-labelledby="dropdownMenuButton"
+                          >
+                            <a
+                              class="dropdown-item d-flex align-items-center"
+                              href="javascript:;"
+                              ><i data-feather="eye" class="icon-sm me-2"></i>
+                              <span class="">View</span></a
+                            >
+                            <a
+                              class="dropdown-item d-flex align-items-center"
+                              href="javascript:;"
+                              ><i
+                                data-feather="edit-2"
+                                class="icon-sm me-2"
+                              ></i>
+                              <span class="">Edit</span></a
+                            >
+                            <a
+                              class="dropdown-item d-flex align-items-center"
+                              href="javascript:;"
+                              ><i data-feather="trash" class="icon-sm me-2"></i>
+                              <span class="">Delete</span></a
+                            >
+                            <a
+                              class="dropdown-item d-flex align-items-center"
+                              href="javascript:;"
+                              ><i
+                                data-feather="printer"
+                                class="icon-sm me-2"
+                              ></i>
+                              <span class="">Print</span></a
+                            >
+                            <a
+                              class="dropdown-item d-flex align-items-center"
+                              href="javascript:;"
+                              ><i
+                                data-feather="download"
+                                class="icon-sm me-2"
+                              ></i>
+                              <span class="">Download</span></a
+                            >
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-6 col-md-12 col-xl-5">
+                          <h3 class="mb-2">30</h3>
+                          <div class="d-flex align-items-baseline">
+                            <p class="text-dark">
+                              <span>+3.3%</span>
+                              <i
+                                data-feather="arrow-up"
+                                class="icon-sm mb-1"
+                              ></i>
+                            </p>
+                          </div>
+                        </div>
+                        <div class="col-6 col-md-12 col-xl-7">
+                          <i data-feather="users" style="font-size: 3rem"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 grid-margin stretch-card">
+                  <div
+                    class="card"
+                    style="background: #ffc107 !important; border: none"
+                  >
+                    <div class="card-body">
+                      <div
+                        class="d-flex justify-content-between align-items-baseline"
+                      >
+                        <h6 class="card-title mb-0">एकूण मंजूर बुकिंग</h6>
+                        <div class="dropdown mb-2">
+                          <a
+                            type="button"
+                            id="dropdownMenuButton1"
+                            data-bs-toggle="dropdown"
+                            aria-haspopup="true"
+                            aria-expanded="false"
+                          >
+                            <i
+                              class="icon-lg text-white pb-3px"
+                              data-feather="more-horizontal"
+                            ></i>
+                          </a>
+                          <div
+                            class="dropdown-menu"
+                            aria-labelledby="dropdownMenuButton1"
+                          >
+                            <a
+                              class="dropdown-item d-flex align-items-center"
+                              href="javascript:;"
+                              ><i data-feather="eye" class="icon-sm me-2"></i>
+                              <span class="">View</span></a
+                            >
+                            <a
+                              class="dropdown-item d-flex align-items-center"
+                              href="javascript:;"
+                              ><i
+                                data-feather="edit-2"
+                                class="icon-sm me-2"
+                              ></i>
+                              <span class="">Edit</span></a
+                            >
+                            <a
+                              class="dropdown-item d-flex align-items-center"
+                              href="javascript:;"
+                              ><i data-feather="trash" class="icon-sm me-2"></i>
+                              <span class="">Delete</span></a
+                            >
+                            <a
+                              class="dropdown-item d-flex align-items-center"
+                              href="javascript:;"
+                              ><i
+                                data-feather="printer"
+                                class="icon-sm me-2"
+                              ></i>
+                              <span class="">Print</span></a
+                            >
+                            <a
+                              class="dropdown-item d-flex align-items-center"
+                              href="javascript:;"
+                              ><i
+                                data-feather="download"
+                                class="icon-sm me-2"
+                              ></i>
+                              <span class="">Download</span></a
+                            >
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-6 col-md-12 col-xl-5">
+                          <h3 class="mb-2">29</h3>
+                          <div class="d-flex align-items-baseline">
+                            <p class="text-dark">
+                              <span>-2.8%</span>
+                              <i
+                                data-feather="arrow-down"
+                                class="icon-sm mb-1"
+                              ></i>
+                            </p>
+                          </div>
+                        </div>
+                        <div class="col-6 col-md-12 col-xl-7">
+                          <i data-feather="command"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 grid-margin stretch-card">
+                  <div
+                    class="card"
+                    style="background: #4f57ea !important; border: none"
+                  >
+                    <div class="card-body">
+                      <div
+                        class="d-flex justify-content-between align-items-baseline"
+                      >
+                        <h6 class="card-title mb-0">आजचे कार्यक्रम</h6>
+                        <div class="dropdown mb-2">
+                          <a
+                            type="button"
+                            id="dropdownMenuButton1"
+                            data-bs-toggle="dropdown"
+                            aria-haspopup="true"
+                            aria-expanded="false"
+                          >
+                            <i
+                              class="icon-lg text-white pb-3px"
+                              data-feather="more-horizontal"
+                            ></i>
+                          </a>
+                          <div
+                            class="dropdown-menu"
+                            aria-labelledby="dropdownMenuButton1"
+                          >
+                            <a
+                              class="dropdown-item d-flex align-items-center"
+                              href="javascript:;"
+                              ><i data-feather="eye" class="icon-sm me-2"></i>
+                              <span class="">View</span></a
+                            >
+                            <a
+                              class="dropdown-item d-flex align-items-center"
+                              href="javascript:;"
+                              ><i
+                                data-feather="edit-2"
+                                class="icon-sm me-2"
+                              ></i>
+                              <span class="">Edit</span></a
+                            >
+                            <a
+                              class="dropdown-item d-flex align-items-center"
+                              href="javascript:;"
+                              ><i data-feather="trash" class="icon-sm me-2"></i>
+                              <span class="">Delete</span></a
+                            >
+                            <a
+                              class="dropdown-item d-flex align-items-center"
+                              href="javascript:;"
+                              ><i
+                                data-feather="printer"
+                                class="icon-sm me-2"
+                              ></i>
+                              <span class="">Print</span></a
+                            >
+                            <a
+                              class="dropdown-item d-flex align-items-center"
+                              href="javascript:;"
+                              ><i
+                                data-feather="download"
+                                class="icon-sm me-2"
+                              ></i>
+                              <span class="">Download</span></a
+                            >
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-6 col-md-12 col-xl-5">
+                          <h3 class="mb-2">29</h3>
+                          <div class="d-flex align-items-baseline">
+                            <p class="text-dark">
+                              <span>-2.8%</span>
+                              <i
+                                data-feather="arrow-down"
+                                class="icon-sm mb-1"
+                              ></i>
+                            </p>
+                          </div>
+                        </div>
+                        <div class="col-6 col-md-12 col-xl-7">
+                          <i data-feather="aperture"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 col-xl-12 stretch-card">
+              <div class="row flex-grow-1">
+                <div class="col-md-4 grid-margin stretch-card">
+                  <div
+                    class="card"
+                    style="background-color: #dc3545 !important; border: none"
+                  >
+                    <div class="card-body">
+                      <div
+                        class="d-flex justify-content-between align-items-baseline"
+                      >
+                        <h6 class="card-title mb-0">एकूण रद्द बुकिंग</h6>
+                        <div class="dropdown mb-2">
+                          <a
+                            type="button"
+                            id="dropdownMenuButton2"
+                            data-bs-toggle="dropdown"
+                            aria-haspopup="true"
+                            aria-expanded="false"
+                          >
+                            <i
+                              class="icon-lg text-white pb-3px"
+                              data-feather="more-horizontal"
+                            ></i>
+                          </a>
+                          <div
+                            class="dropdown-menu"
+                            aria-labelledby="dropdownMenuButton2"
+                          >
+                            <a
+                              class="dropdown-item d-flex align-items-center"
+                              href="javascript:;"
+                              ><i data-feather="eye" class="icon-sm me-2"></i>
+                              <span class="">View</span></a
+                            >
+                            <a
+                              class="dropdown-item d-flex align-items-center"
+                              href="javascript:;"
+                              ><i
+                                data-feather="edit-2"
+                                class="icon-sm me-2"
+                              ></i>
+                              <span class="">Edit</span></a
+                            >
+                            <a
+                              class="dropdown-item d-flex align-items-center"
+                              href="javascript:;"
+                              ><i data-feather="trash" class="icon-sm me-2"></i>
+                              <span class="">Delete</span></a
+                            >
+                            <a
+                              class="dropdown-item d-flex align-items-center"
+                              href="javascript:;"
+                              ><i
+                                data-feather="printer"
+                                class="icon-sm me-2"
+                              ></i>
+                              <span class="">Print</span></a
+                            >
+                            <a
+                              class="dropdown-item d-flex align-items-center"
+                              href="javascript:;"
+                              ><i
+                                data-feather="download"
+                                class="icon-sm me-2"
+                              ></i>
+                              <span class="">Download</span></a
+                            >
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-6 col-md-12 col-xl-5">
+                          <h3 class="mb-2">1</h3>
+                          <div class="d-flex align-items-baseline">
+                            <p class="text-dark">
+                              <span>+2.8%</span>
+                              <i
+                                data-feather="arrow-up"
+                                class="icon-sm mb-1"
+                              ></i>
+                            </p>
+                          </div>
+                        </div>
+                        <div class="col-6 col-md-12 col-xl-7">
+                          <i data-feather="x-square"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 grid-margin stretch-card">
+                  <div
+                    class="card"
+                    style="background-color: #28a745 !important; border: none"
+                  >
+                    <div class="card-body">
+                      <div
+                        class="d-flex justify-content-between align-items-baseline"
+                      >
+                        <h6 class="card-title mb-0">एकूण सेवा</h6>
+                        <div class="dropdown mb-2">
+                          <a
+                            type="button"
+                            id="dropdownMenuButton"
+                            data-bs-toggle="dropdown"
+                            aria-haspopup="true"
+                            aria-expanded="false"
+                          >
+                            <i
+                              class="icon-lg text-white pb-3px"
+                              data-feather="more-horizontal"
+                            ></i>
+                          </a>
+                          <div
+                            class="dropdown-menu"
+                            aria-labelledby="dropdownMenuButton"
+                          >
+                            <a
+                              class="dropdown-item d-flex align-items-center"
+                              href="javascript:;"
+                              ><i data-feather="eye" class="icon-sm me-2"></i>
+                              <span class="">View</span></a
+                            >
+                            <a
+                              class="dropdown-item d-flex align-items-center"
+                              href="javascript:;"
+                              ><i
+                                data-feather="edit-2"
+                                class="icon-sm me-2"
+                              ></i>
+                              <span class="">Edit</span></a
+                            >
+                            <a
+                              class="dropdown-item d-flex align-items-center"
+                              href="javascript:;"
+                              ><i data-feather="trash" class="icon-sm me-2"></i>
+                              <span class="">Delete</span></a
+                            >
+                            <a
+                              class="dropdown-item d-flex align-items-center"
+                              href="javascript:;"
+                              ><i
+                                data-feather="printer"
+                                class="icon-sm me-2"
+                              ></i>
+                              <span class="">Print</span></a
+                            >
+                            <a
+                              class="dropdown-item d-flex align-items-center"
+                              href="javascript:;"
+                              ><i
+                                data-feather="download"
+                                class="icon-sm me-2"
+                              ></i>
+                              <span class="">Download</span></a
+                            >
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-6 col-md-12 col-xl-5">
+                          <h3 class="mb-2">10</h3>
+                          <div class="d-flex align-items-baseline">
+                            <p class="text-dark">
+                              <span>+3.3%</span>
+                              <i
+                                data-feather="arrow-up"
+                                class="icon-sm mb-1"
+                              ></i>
+                            </p>
+                          </div>
+                        </div>
+                        <div class="col-6 col-md-12 col-xl-7">
+                          <i data-feather="settings"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-4 grid-margin stretch-card">
+                  <div
+                    class="card"
+                    style="background-color: #8d81fa !important; border: none"
+                  >
+                    <div class="card-body">
+                      <div
+                        class="d-flex justify-content-between align-items-baseline"
+                      >
+                        <h6 class="card-title mb-0">वाढ</h6>
+                        <div class="dropdown mb-2">
+                          <a
+                            type="button"
+                            id="dropdownMenuButton2"
+                            data-bs-toggle="dropdown"
+                            aria-haspopup="true"
+                            aria-expanded="false"
+                          >
+                            <i
+                              class="icon-lg text-white pb-3px"
+                              data-feather="more-horizontal"
+                            ></i>
+                          </a>
+                          <div
+                            class="dropdown-menu"
+                            aria-labelledby="dropdownMenuButton2"
+                          >
+                            <a
+                              class="dropdown-item d-flex align-items-center"
+                              href="javascript:;"
+                              ><i data-feather="eye" class="icon-sm me-2"></i>
+                              <span class="">View</span></a
+                            >
+                            <a
+                              class="dropdown-item d-flex align-items-center"
+                              href="javascript:;"
+                              ><i
+                                data-feather="edit-2"
+                                class="icon-sm me-2"
+                              ></i>
+                              <span class="">Edit</span></a
+                            >
+                            <a
+                              class="dropdown-item d-flex align-items-center"
+                              href="javascript:;"
+                              ><i data-feather="trash" class="icon-sm me-2"></i>
+                              <span class="">Delete</span></a
+                            >
+                            <a
+                              class="dropdown-item d-flex align-items-center"
+                              href="javascript:;"
+                              ><i
+                                data-feather="printer"
+                                class="icon-sm me-2"
+                              ></i>
+                              <span class="">Print</span></a
+                            >
+                            <a
+                              class="dropdown-item d-flex align-items-center"
+                              href="javascript:;"
+                              ><i
+                                data-feather="download"
+                                class="icon-sm me-2"
+                              ></i>
+                              <span class="">Download</span></a
+                            >
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-6 col-md-12 col-xl-5">
+                          <h3 class="mb-2">1</h3>
+                          <div class="d-flex align-items-baseline">
+                            <p class="text-dark">
+                              <span>+2.8%</span>
+                              <i
+                                data-feather="arrow-up"
+                                class="icon-sm mb-1"
+                              ></i>
+                            </p>
+                          </div>
+                        </div>
+                        <div class="col-6 col-md-12 col-xl-7">
+                          <i data-feather="bar-chart-2"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- row -->
+          <div class="row mb-4">
+            <div class="col-lg-12 col-xl-12 stretch-card">
+              <div class="card">
+                <div class="card-body">
+                  <div
+                    class="d-flex justify-content-between align-items-baseline mb-2"
+                  >
+                    <h6 class="card-title mb-2">नवीन बुकिंग</h6>
+                  </div>
+                  <div class="table-responsive">
+                    <table class="table table-hover mb-0">
+                      <thead>
+                        <tr>
+                          <th class="pt-0">#</th>
+                          <th class="pt-0">ग्राहकाचे नाव</th>
+                          <th class="pt-0">मोबाईल नंबर</th>
+                          <th class="pt-0">ईमेल</th>
+                          <th class="pt-0">बुकिंग तारीख</th>
+                          <th class="pt-0">स्थिती</th>
+                          <th class="pt-0">Action</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>1</td>
+                          <td>सुरज</td>
+                          <td>9876543210</td>
+                          <td>example@gmail.com</td>
+                          <td>09/02/2023</td>
+                          <td><span class="badge bg-danger">Rejected</span></td>
+
+                          <td>
+                            <div class="dropdown mb-2">
+                              <a
+                                type="button"
+                                id="dropdownMenuButton7"
+                                data-bs-toggle="dropdown"
+                                aria-haspopup="true"
+                                aria-expanded="false"
+                              >
+                                <i
+                                  class="icon-lg text-muted pb-3px"
+                                  data-feather="more-horizontal"
+                                ></i>
+                              </a>
+                              <div
+                                class="dropdown-menu"
+                                aria-labelledby="dropdownMenuButton7"
+                              >
+                                <a
+                                  class="dropdown-item d-flex align-items-center"
+                                  href="javascript:;"
+                                  ><i
+                                    data-feather="eye"
+                                    class="icon-sm me-2"
+                                  ></i>
+                                  <span class="">View</span></a
+                                >
+                              </div>
+                            </div>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>2</td>
+                          <td>सुरज</td>
+                          <td>9876543210</td>
+                          <td>example@gmail.com</td>
+                          <td>09/02/2023</td>
+                          <td><span class="badge bg-info">Approved</span></td>
+
+                          <td>
+                            <div class="dropdown mb-2">
+                              <a
+                                type="button"
+                                id="dropdownMenuButton7"
+                                data-bs-toggle="dropdown"
+                                aria-haspopup="true"
+                                aria-expanded="false"
+                              >
+                                <i
+                                  class="icon-lg text-muted pb-3px"
+                                  data-feather="more-horizontal"
+                                ></i>
+                              </a>
+                              <div
+                                class="dropdown-menu"
+                                aria-labelledby="dropdownMenuButton7"
+                              >
+                                <a
+                                  class="dropdown-item d-flex align-items-center"
+                                  href="javascript:;"
+                                  ><i
+                                    data-feather="eye"
+                                    class="icon-sm me-2"
+                                  ></i>
+                                  <span class="">View</span></a
+                                >
+                              </div>
+                            </div>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>3</td>
+                          <td>सुरज</td>
+                          <td>9876543210</td>
+                          <td>example@gmail.com</td>
+                          <td>09/02/2023</td>
+                          <td><span class="badge bg-warning">Pending</span></td>
+
+                          <td>
+                            <div class="dropdown mb-2">
+                              <a
+                                type="button"
+                                id="dropdownMenuButton7"
+                                data-bs-toggle="dropdown"
+                                aria-haspopup="true"
+                                aria-expanded="false"
+                              >
+                                <i
+                                  class="icon-lg text-muted pb-3px"
+                                  data-feather="more-horizontal"
+                                ></i>
+                              </a>
+                              <div
+                                class="dropdown-menu"
+                                aria-labelledby="dropdownMenuButton7"
+                              >
+                                <a
+                                  class="dropdown-item d-flex align-items-center"
+                                  href="javascript:;"
+                                  ><i
+                                    data-feather="eye"
+                                    class="icon-sm me-2"
+                                  ></i>
+                                  <span class="">View</span></a
+                                >
+                              </div>
+                            </div>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-7 col-xl-8 grid-margin stretch-card">
+              <div class="card">
+                <div class="card-body">
+                  <div
+                    class="d-flex justify-content-between align-items-baseline mb-2"
+                  >
+                    <h6 class="card-title mb-0">मासिक बुकिंग</h6>
+                    <div class="dropdown mb-2">
+                      <a
+                        type="button"
+                        id="dropdownMenuButton4"
+                        data-bs-toggle="dropdown"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                      >
+                        <i
+                          class="icon-lg text-muted pb-3px"
+                          data-feather="more-horizontal"
+                        ></i>
+                      </a>
+                      <div
+                        class="dropdown-menu"
+                        aria-labelledby="dropdownMenuButton4"
+                      >
+                        <a
+                          class="dropdown-item d-flex align-items-center"
+                          href="javascript:;"
+                          ><i data-feather="eye" class="icon-sm me-2"></i>
+                          <span class="">View</span></a
+                        >
+                        <a
+                          class="dropdown-item d-flex align-items-center"
+                          href="javascript:;"
+                          ><i data-feather="edit-2" class="icon-sm me-2"></i>
+                          <span class="">Edit</span></a
+                        >
+                        <a
+                          class="dropdown-item d-flex align-items-center"
+                          href="javascript:;"
+                          ><i data-feather="trash" class="icon-sm me-2"></i>
+                          <span class="">Delete</span></a
+                        >
+                        <a
+                          class="dropdown-item d-flex align-items-center"
+                          href="javascript:;"
+                          ><i data-feather="printer" class="icon-sm me-2"></i>
+                          <span class="">Print</span></a
+                        >
+                        <a
+                          class="dropdown-item d-flex align-items-center"
+                          href="javascript:;"
+                          ><i data-feather="download" class="icon-sm me-2"></i>
+                          <span class="">Download</span></a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <p class="text-muted">
+                    Sales are activities related to selling or the number of
+                    goods or services sold in a given time period.
+                  </p>
+                  <div id="monthlySalesChart"></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-5 col-xl-4 grid-margin stretch-card">
+              <div class="card">
+                <div class="card-body">
+                  <div
+                    class="d-flex justify-content-between align-items-baseline"
+                  >
+                    <h6 class="card-title mb-0">आठवड्याचे बुकिंग</h6>
+                    <div class="dropdown mb-2">
+                      <a
+                        type="button"
+                        id="dropdownMenuButton5"
+                        data-bs-toggle="dropdown"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                      >
+                        <i
+                          class="icon-lg text-muted pb-3px"
+                          data-feather="more-horizontal"
+                        ></i>
+                      </a>
+                      <div
+                        class="dropdown-menu"
+                        aria-labelledby="dropdownMenuButton5"
+                      >
+                        <a
+                          class="dropdown-item d-flex align-items-center"
+                          href="javascript:;"
+                          ><i data-feather="eye" class="icon-sm me-2"></i>
+                          <span class="">View</span></a
+                        >
+                        <a
+                          class="dropdown-item d-flex align-items-center"
+                          href="javascript:;"
+                          ><i data-feather="edit-2" class="icon-sm me-2"></i>
+                          <span class="">Edit</span></a
+                        >
+                        <a
+                          class="dropdown-item d-flex align-items-center"
+                          href="javascript:;"
+                          ><i data-feather="trash" class="icon-sm me-2"></i>
+                          <span class="">Delete</span></a
+                        >
+                        <a
+                          class="dropdown-item d-flex align-items-center"
+                          href="javascript:;"
+                          ><i data-feather="printer" class="icon-sm me-2"></i>
+                          <span class="">Print</span></a
+                        >
+                        <a
+                          class="dropdown-item d-flex align-items-center"
+                          href="javascript:;"
+                          ><i data-feather="download" class="icon-sm me-2"></i>
+                          <span class="">Download</span></a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div id="storageChart"></div>
+                  <div class="row mb-3">
+                    <div class="col-6 d-flex justify-content-end">
+                      <div>
+                        <label
+                          class="d-flex align-items-center justify-content-end tx-10 text-uppercase fw-bolder"
+                        >
+                          एकूण बुकिंग
+                          <span
+                            class="p-1 ms-1 rounded-circle bg-secondary"
+                          ></span
+                        ></label>
+                        <h5 class="fw-bolder mb-0 text-end">50</h5>
+                      </div>
+                    </div>
+                    <div class="col-6">
+                      <div>
+                        <label
+                          class="d-flex align-items-center tx-10 text-uppercase fw-bolder"
+                          ><span
+                            class="p-1 me-1 rounded-circle bg-primary"
+                          ></span>
+                          बुकिंग स्वीकारले</label
+                        >
+                        <h5 class="fw-bolder mb-0">45</h5>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="d-grid">
+                    <button class="btn btn-primary">New Booking</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- row -->
+
+          <!-- row -->
+        </div>
+
+        <!-- partial:partials/_footer.html -->
+        <footer
+          class="footer d-flex flex-column flex-md-row align-items-center justify-content-between px-4 py-3 border-top small"
+        >
+          <p class="text-muted mb-1 mb-md-0">
+            Copyright ©
+            <script>
+              document.write(new Date().getFullYear());
+            </script>
+            <a href="" target="_blank">Shree Ganesh</a>.
+          </p>
+        </footer>
+        <!-- partial -->
+      </div>
+    </div>
+
+    <!-- core:js -->
+    <script src="./assets/vendors/core/core.js"></script>
+    <!-- endinject -->
+
+    <!-- Plugin js for this page -->
+    <script src="./assets/vendors/flatpickr/flatpickr.min.js"></script>
+    <script src="./assets/vendors/apexcharts/apexcharts.min.js"></script>
+    <!-- End plugin js for this page -->
+
+    <!-- inject:js -->
+    <script src="./assets/vendors/feather-icons/feather.min.js"></script>
+    <script src="./assets/js/template.js"></script>
+    <!-- endinject -->
+
+    <!-- Custom js for this page -->
+    <script src="./assets/js/dashboard-light.js"></script>
+    <!-- End custom js for this page -->
+  </body>
+</html>
